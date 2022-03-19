@@ -1,27 +1,128 @@
-.masthead {
-  background: url("../images/masthead.png") no-repeat center;
-  height: 462px;
+/* General
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html,
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Inter, Helvetica, Roboto, sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container {
+  max-width: none !important;
+  width: 100%;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.33;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.desk {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.whatsnew {
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding-bottom: 50px;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* MainNavBar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.mainNavBar {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 48px;
+  white-space: nowrap;
+}
+/*Floats each item to the left with padding of 14 & 16 px.
+Removes the underline with text decoration = none.*/
+.mainNavBar a {
+  color: #333;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+/*Background color change during hover state*/
+.mainNavBar a:hover {
+  color: rgb(172, 172, 172);
+}
+
+.fa,
+.fa-brands,
+.fa-duotone,
+.fa-light,
+.fa-regular,
+.fa-solid,
+.fa-thin,
+.fab,
+.fad,
+.fal,
+.far,
+.fas,
+.fat {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 48px !important;
+}
+
+/* Grey
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.grey {
+  background-color: #fafafa;
+}
+
+.app-center {
+  background-color: #7239b3;
+  background-image: -webkit-gradient(linear,left top,right bottom,from(#4c158a),to(#ad65d6));
+  background-image: -webkit-linear-gradient(left top,#4c158a,#ad65d6);
+  background-image: -o-linear-gradient(left top,#4c158a,#ad65d6);
+  background-image: linear-gradient(to right bottom,#4c158a,#ad65d6);
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* Showcase2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.showcase2 {
+  background-color: #3689e6;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(13,82,191,.25)),to(rgba(0,115,103,.33))),-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.5))),url("../images/wallpaper.jpg");
+  background-image: -webkit-linear-gradient(top,rgba(13,82,191,.25),rgba(0,115,103,.33)),-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/wallpaper.jpg");
+  background-image: -o-linear-gradient(top,rgba(13,82,191,.25),rgba(0,115,103,.33)),-o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/wallpaper.jpg");
+  background-image: linear-gradient(to bottom,rgba(13,82,191,.25),rgba(0,115,103,.33)),linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/wallpaper.jpg");
+  background-position: center;
   background-size: cover;
-}
-.rewardingContent {
-  margin-top: 10px;
-}
-.rewardingImg {
-  width: 75%;
-  margin: 0 auto;
-  display: block;
-}
-.rewardingContent,
-.hiredContent,
-.workEfficiency,
-.getPaid {
-  margin-top: 10px;
-}
-.rewardingImg,
-.hiringImg,
-.messagingImg,
-.paidImg {
-  width: 75%;
-  margin: 0 auto;
-  display: block;
+  color: #fff;
+  text-shadow: 0 0 6px #000;
 }

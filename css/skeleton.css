@@ -60,7 +60,10 @@
     margin-left: 0; }
 
   .one.column,
+  .oneicon.columns                { width: 0.5%; }
+  .halfone.columns                { width: 2%; }
   .one.columns                    { width: 4.66666666667%; }
+  .onehalf.columns                { width: 6.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
   .four.columns                   { width: 30.6666666667%; }
